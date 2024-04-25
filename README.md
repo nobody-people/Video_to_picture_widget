@@ -9,6 +9,7 @@
 
 打不开提示损坏，请在终端逐行运行 
 sudo spctl --master-disable
+
 sudo xattr -r -d com.apple.quarantine /Applications/应用名字.app
 
 ---
